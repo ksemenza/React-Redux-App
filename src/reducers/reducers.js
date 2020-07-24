@@ -2,7 +2,7 @@ import {
     FETCH_DATA_START,
     FETCH_DATA_SUCCESS,
     FETCH_DATA_FAILURE
-} from '../actions';
+} from '../actions/actions';
 
 const initialState = {
     jokes: null,
