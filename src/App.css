@@ -25,6 +25,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -60,6 +61,28 @@
   border: 3px outset #00ff40;
 }
 
+.answer-button:hover {
+  color: white;
+  border-color: white;
+}
+
+.find-btn {
+  height: 9.5rem;
+  width: 25rem;
+  border: 0.5rem outset white;
+  color: blanchedalmond;
+  background-color: black;
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-bottom: 5.5rem;
+  margin-top: 4.5rem;
+  
+}
+
+.find-btn:hover {
+  color: #00ff40;
+  border-color: #00ff40;
+}
 
 div {
   display: flex;
