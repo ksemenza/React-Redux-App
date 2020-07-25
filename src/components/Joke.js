@@ -11,7 +11,7 @@ const Joke = props => {
         <div key={props.joke.id} className='joke'>
         
             <h3>{props.joke.setup}</h3>
-            {!visible && <button onClick={togglePunchline} className='answer-button'>Show Answer</button>}
+            {!visible && <button onClick={togglePunchline} className='answer-button'>ENTER</button>}
             {visible && <h4>{props.joke.punchline}</h4>}
         </div>
     )

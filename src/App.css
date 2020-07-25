@@ -48,10 +48,17 @@
   width: 45rem;
   margin: 5px auto;
   padding: 25px;
-  border: 5px dashed green;
-  background-color:white;
+  border: 5px dashed #00ff40;
+  color:green;
+  background-color:lig;
 }
 
+
+.answer-button{
+  background-color: black;
+  color:#00ff40;
+  border: 3px outset #00ff40;
+}
 
 
 div {
