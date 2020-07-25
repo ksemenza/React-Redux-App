@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 14px;
   font-size: 1.4rem;
-  background-color:black;
+  background-color: black;
 
 
 }
@@ -19,10 +19,19 @@ code {
 
 html {
   font-size: 62.5%;
-}
 
+
+}
 
 h1 {
   font-size: 24px;
   font-size: 2.4rem;
+
+}
+
+@font-face {
+  font-family: 'computer-pixel';
+  src: url('./assets/fonts/computer_pixel-7.ttf');
+  format: ('truetype');
+
 }
