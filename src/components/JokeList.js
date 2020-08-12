@@ -26,7 +26,7 @@ const JokesList = (props) => {
             </WelcomeHeader>
             
             {!props.jokes && <h2>Are you ready to laugh?</h2>}
-            <button onClick={handleClick}>Get Jokes</button>
+            <button className='find-btn' onClick={handleClick}>F1nd J0ke5</button>
             {props.isFetching && <Loader
                 type="ThreeDots"
                 color="green"
